@@ -20,3 +20,4 @@ if __name__ == "__main__":
     print("--- Recomendaciones del Sistema ---")
     for movie, score in recommend(user_profile, movies):
         print(f"Película: {movie} | Afinidad: {score}")
+    
